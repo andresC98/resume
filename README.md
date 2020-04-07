@@ -1,2 +1,0 @@
-# ResumeWeb
- My personal webpace
