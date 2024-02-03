@@ -28,16 +28,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WN61MPN903"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-WN61MPN903');
-  </script>
-
 </head>
 
 <body>
@@ -47,8 +37,12 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/yoimg.jpeg" alt="" class="img-fluid rounded-circle">
+        <img src="assets/img/yoimg.png" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Andrés Carrillo López</a></h1>
+        <div class="social-links mt-3 text-center">
+        <p class="text-light">   Senior ML & Cloud Engineer</p>
+        </div>
+
         <div class="social-links mt-3 text-center">
           <a href="https://github.com/andresC98" target="_blank" class="github"><i class="bx bxl-github"></i></a>
           <a href="https://open.spotify.com/show/5cpJ03oRVgD1LTs2SWEVKt" target="_blank" class="bx bxl-spotify"><i class="podcast_box"></i></a>
@@ -77,7 +71,7 @@
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Andrés Carrillo</h1>
-      <p><span class="typed" data-typed-items="Data Science / AI, Cloud, Software Development"></span></p>
+      <p><span class="typed" data-typed-items="ML / AI Engineering, Cloud, MLOps, Software Development"></span></p>
     </div>
   </section><!-- End Hero -->
 
@@ -89,7 +83,7 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <p>M.Sc. in Big Data and Telecommunications Engineer passionated about Data Science and Software. Currently working in SNGULAR as a Machine Learning Engineer. My areas of experience range from Data Science & AI models R&D 🤖 , to Data Engineering pipelines design and deployment ⚙️ , Cloud / Microservices architecture development ☁️ and general Software Engineering.</p>
+          <p>M.Sc. in Big Data and Telecommunications Engineer passionated about AI, Cloud and Software Engineering. Currently working in CHEP as a Sr. ML Engineer. My areas of experience range from Data Science & AI models R&D 🤖, Cloud / Microservices architecture development ☁️ and general Software Engineering.</p>
         </div>
 
         <div class="row">
@@ -97,7 +91,7 @@
             <img src="assets/img/YOtemplate.png" class="img-fluid" alt="" height="220" width="250">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Machine Learning Engineer</h3>
+            <h3>Senior Machine Learning Engineer</h3>
             <p class="font-italic">
               Main info:
             </p>
@@ -147,7 +141,7 @@
           <div class="col-lg-6" data-aos="fade-up">
 
             <div class="progress">
-              <span class="skill">Python, Java, Arduino, R <i class="val"></i></span>
+              <span class="skill">Python, Java, SQL, C, R <i class="val"></i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -161,7 +155,7 @@
             </div>
 
             <div class="progress">
-              <span class="skill">Scikit-learn, Tensorflow, Keras, Pytorch, OpenCV, Optuna<i class="val"></i></span>
+              <span class="skill">MLflow, Scikit-learn, Tensorflow, Keras, Pytorch, OpenCV<i class="val"></i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -172,21 +166,21 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
 
             <div class="progress">
-              <span class="skill"> Google Cloud, Azure, AWS, MLflow, Docker, Microservices<i class="val"></i></span>
+              <span class="skill"> AWS, Databricks, Google Cloud, Docker, CI-CD<i class="val"></i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">SQL, PySpark, MongoDB, Apache NiFi<i class="val"></i></span>
+              <span class="skill">AI/ML Architecture, MLOps, Systems Design<i class="val"></i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">Numpy, Pandas, Scipy, Seaborn, Matplotlib, Streamlit <i class="val"></i></span>
+              <span class="skill">AWS ECS, ECR, EC2, Fargate, Lambda, Sagemaker, IAM, S3, CloudWatch<i class="val"></i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -238,8 +232,21 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
+              <h4>Senior Machine Learning Engineer</h4>
+              <h5>Feb'23 - Now</h5>
+              <p><em>CHEP, Madrid </em></p>
+              <ul>
+                <li>Leading the architecture design, development, and deployment of ML & AI models in Cloud and Microservices environments.</li>
+                <li>Deploying ML and Software pipelines following DevOps & MLOps best practices.</li>
+                <li>Tech stack: Python, AWS (ECS, ECR, Fargate, EFS, S3, Sagemaker, CloudWatch ...), Databricks, Docker, Git Pipelines, ...</li>
+                <li>Collaborating with international cross-functional teams to define tech. project requirements and deliver solutions.</li>
+                <li>Mentoring and guiding other engineers, providing technical leadership on MLOps, and fostering collaboration.</li>
+              </ul>
+              
+            </div>
+            <div class="resume-item">
               <h4>Machine Learning Engineer</h4>
-              <h5>Dec'21 - Now</h5>
+              <h5>Dec'21 - Feb '23</h5>
               <p><em>Sngular, Madrid </em></p>
               <ul>
                 <li>Development of AI Engineering &amp; Data projects with a strong focus in Python and Cloud technologies.</li>
@@ -335,99 +342,6 @@
       </div>
     </section><!-- End Resume Section -->
 
-    <!-- ======= Portfolio Section ======= -->
-    
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Feel free to check out some of my personal code projects I have worked on hosted on my Github profile.</p>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-Software">Software</li>
-              <li data-filter=".filter-DataScience">Data Science</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-Software">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/bitorrentp.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="https://github.com/andresC98/PyBitTorrent" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-Software">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/geneticp.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="https://github.com/andresC98/GeneticMLP" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-DataScience">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/imagedataset-2.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="https://github.com/andresC98/Image-Dataset-Builder" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-DataScience">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/nesciencep.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="https://github.com/andresC98/NescienceNeuralClassifier" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-DataScience">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/docclass.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-              <!-- Nota: añadir en portfolio links una imagen pero con texto que describa el project -->
-              <!--                 
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-              -->
-                <a href="https://github.com/andresC98/One-Shot-DocClassifier" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-DataScience">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/tsftfm.png" class="img-fluid" alt="">
-              <div class="portfolio-links">
-              <!-- Nota: añadir en portfolio links una imagen pero con texto que describa el project -->
-              <!--                 
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-              -->
-                <a href="https://github.com/andresC98/TSF_Transformers_TFM" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-       
-
-        </div>
-
-      </div>
-    </section>
-
-    
-    <!-- End Portfolio Section -->
     <!-- ======= Services Section ======= -->
     
     <section id="Podcast" class="Podcast">
