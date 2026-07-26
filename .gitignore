@@ -1,0 +1,16 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# PDFs & Exports
+*.pdf
+
+# Temporary files
+*.tmp
+*.bak
+*.old
