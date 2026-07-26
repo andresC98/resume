@@ -5,436 +5,284 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Andrés Carrillo - Personal Webpage</title>
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
+  <title>Andrés Carrillo - Senior GenAI Platform Engineer @ Adyen</title>
+  <meta content="Andrés Carrillo López - Senior GenAI Platform Engineer @ Adyen, Google Cloud Certified Professional ML Engineer, M.Sc in Big Data & AI." name="description">
+  <meta content="Andres Carrillo, GenAI Platform Engineer, Adyen, LLMOps, LLM Serving, Google Cloud Certified, Kubernetes, MLOps, AI Platform, Madrid, Homelab" name="keywords">
   
+  <!-- Open Graph / Social Cards -->
+  <meta property="og:title" content="Andrés Carrillo - Senior GenAI Platform Engineer @ Adyen">
+  <meta property="og:description" content="Senior GenAI Platform Engineer @ Adyen. Google Cloud Certified Professional ML Engineer specializing in LLM Serving Infrastructure, LLMOps, and Distributed Kubernetes Systems.">
+  <meta property="og:url" content="https://andrescarrillo.es">
+  <meta property="og:type" content="website">
+  
+  <!-- Security Headers -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
 
-  <!-- Favicons -->
+  <!-- Favicon -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/favicon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- Modern Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <!-- Icons -->
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
+  <!-- Custom Design System -->
+  <link href="assets/css/custom.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
-
-      <div class="profile">
-        <img src="assets/img/yoimg.png" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Andrés Carrillo López</a></h1>
-        <div class="social-links mt-3 text-center">
-        <p class="text-light">   Senior ML & Cloud Engineer</p>
-        </div>
-
-        <div class="social-links mt-3 text-center">
-          <a href="https://github.com/andresC98" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-          <a href="https://open.spotify.com/show/5cpJ03oRVgD1LTs2SWEVKt" target="_blank" class="bx bxl-spotify"><i class="podcast_box"></i></a>
-          <a href="https://www.linkedin.com/in/andresc98/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <!--<a href="https://andresc98.github.io/andresBlog/" target="_blank" class="blog"><i class="bx bx-pen"></i></a> -->
-        </div>
-      </div>
-
-      <nav class="nav-menu">
-        <ul>
-          <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio"><i class="bx bx-book-content"></i> Projects</a></li>
-          <li><a href="#Podcast"><i class="bx bx-headphone"></i> Podcast</a></li>
-          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
-
-        </ul>
-      </nav><!-- .nav-menu -->
-      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
-
+  <!-- ======= Navbar ======= -->
+  <nav class="navbar">
+    <div class="main-container nav-content">
+      <a href="index.html" class="nav-brand">
+        <img src="assets/img/yoimg.png" alt="Andrés Carrillo">
+        <span>Andrés Carrillo</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#expertise">Expertise</a></li>
+        <li><a href="#homelab">Homelab</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#connect">Connect</a></li>
+      </ul>
+      <a href="https://www.linkedin.com/in/andresc98/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+        <i class="bx bxl-linkedin"></i> LinkedIn Profile ↗
+      </a>
     </div>
-  </header><!-- End Header -->
+  </nav>
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Andrés Carrillo</h1>
-      <p><span class="typed" data-typed-items="ML / AI Engineering, Cloud, MLOps, Software Development"></span></p>
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>About</h2>
-          <p>M.Sc. in Big Data and Telecommunications Engineer passionated about AI, Cloud and Software Engineering. Currently working in CHEP as a Sr. ML Engineer. My areas of experience range from Data Science & AI models R&D 🤖, Cloud / Microservices architecture development ☁️ and general Software Engineering.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/YOtemplate.png" class="img-fluid" alt="" height="220" width="250">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Senior Machine Learning Engineer</h3>
-            <p class="font-italic">
-              Main info:
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Bachelor of Engineering -</strong> Telecommunications</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Master of Science:</strong> Big Data Analytics</li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> me@andrescarrillo.es</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Madrid, Spain</li>
-                </ul>
-              </div>
-            </div>
-            
-            <p>
-              I also host and produce a Data Science Podcast in Spanish! 
-            </p>
-            <p>
-              Feel free to check out <a href="#Podcast">Ciencia del Dato</a>.
-            </p>
-            
-
-          </div>
-        </div>
-       
+  <header class="hero">
+    <div class="main-container">
+      <div class="hero-badge">
+        <span class="status-dot"></span>
+        <span>Senior GenAI Platform Engineer @ Adyen</span>
       </div>
-    </section><!-- End About Section -->
+      
+      <h1 class="hero-title">Andrés Carrillo López</h1>
+      <div class="hero-subtitle">Building Scalable LLM Infrastructure, GenAI Platforms & LLMOps</div>
+      
+      <p class="hero-description">
+        Senior GenAI Platform Engineer at <strong>Adyen</strong>. Google Cloud Certified Professional ML Engineer with an M.Sc. in Big Data & AI and a background in Telecommunications Engineering. Specializing in architecting high-performance LLM serving, LLMOps observability, distributed Kubernetes clusters, and cloud platform engineering.
+      </p>
 
-  
-    </section><!-- End Facts Section -->
+      <div class="hero-actions">
+        <a href="https://www.linkedin.com/in/andresc98/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+          <i class="bx bxl-linkedin"></i> View Full Career on LinkedIn
+        </a>
+        <a href="#homelab" class="btn-secondary">
+          <i class="bx bx-chip"></i> Explore Homelab Setup
+        </a>
+        <a href="#projects" class="btn-secondary">
+          <i class="bx bx-code-alt"></i> View Projects
+        </a>
+      </div>
 
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Technical skills</h2>
-          <p>Given my educational and professional background, I have used a wide range of technologies surrounding the Software, Cloud, Data and Artificial Intelligence fields. I find myself confortable in the intersection between Data Science, Cloud and Software Engineering; having experience in building quality backend software, experimenting on training and evaluation of advanced Machine Learning and Deep Learning models, as well as deploying containerized ETL and models in the cloud and microservice architectures. Some of the programming languages, libraries and frameworks I have worked with are:</p>
-        </div>
-
-        <div class="row skills-content">
-
-          <div class="col-lg-6" data-aos="fade-up">
-
-            <div class="progress">
-              <span class="skill">Python, Java, SQL, C, R <i class="val"></i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Machine Learning, Deep Learning; NLP, Computer Vision, Time-Series forecasting<i class="val"></i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">MLflow, Scikit-learn, Tensorflow, Keras, Pytorch, OpenCV<i class="val"></i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="progress">
-              <span class="skill"> AWS, Databricks, Google Cloud, Docker, CI-CD<i class="val"></i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">AI/ML Architecture, MLOps, Systems Design<i class="val"></i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">AWS ECS, ECR, EC2, Fargate, Lambda, Sagemaker, IAM, S3, CloudWatch<i class="val"></i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-        <div class="section-title">
-          <p>As a side note; I do also enjoy having personal projects where I learn about and experiment with infusing AI into Mobile applications (iOS/Android, Flutter) as well as developing VR/AR experiences for Oculus VR headsets using Unity.</p>
+      <!-- Tech Stack Badges -->
+      <div class="tech-pills">
+        <span class="tech-pill"><i class="bx bx-certification" style="color: #f59e0b;"></i> GCP Certified Professional ML Engineer</span>
+        <span class="tech-pill"><i class="bx bx-bot"></i> GenAI & LLM Serving Infrastructure</span>
+        <span class="tech-pill"><i class="bx bx-analyse"></i> LLMOps & Observability</span>
+        <span class="tech-pill"><i class="bx bx-server"></i> Kubernetes & Containerized Deployments</span>
+        <span class="tech-pill"><i class="bx bxl-google"></i> Google Cloud (GCP) & AWS</span>
+        <span class="tech-pill"><i class="bx bxl-python"></i> Python & PyTorch</span>
+        <span class="tech-pill"><i class="bx bx-data"></i> Databricks & MLflow</span>
+        <span class="tech-pill"><i class="bx bx-microchip"></i> Edge AI & ESP32 / RPi 5</span>
       </div>
     </div>
+  </header>
 
-    </section><!-- End Skills Section -->
-
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Resume</h2>
+  <main>
+    <!-- ======= Core Expertise Section ======= -->
+    <section id="expertise" class="section">
+      <div class="main-container">
+        <div class="section-header">
+          <div class="section-subtitle">Core Competencies</div>
+          <h2 class="section-title">GenAI & Platform Architecture</h2>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
-        
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Master in Big Data Analytics & AI</h4>
-              <h5>2020 - 2021</h5>
-              <p><em>Universidad Carlos III de Madrid.</em></p>
-              <p><a href="https://www.uc3m.es/master/big-data-analytics" target="_blank" > Masters degree</a> focused on Big Data and Data Science. From data engineering courses, to advanced data analytics and Machine Learning / Deep Learning models, as well as Business intelligence and advanced statistics. Wrote my Master thesis titled <a href="https://github.com/andresC98/TSF_Transformers_TFM" target="_blank" >"Time-Series Forecasting using Transformers"</a>.</p>
+        <div class="grid-3">
+          <!-- Card 1 -->
+          <div class="glass-card">
+            <div class="card-icon">
+              <i class="bx bx-bot"></i>
             </div>
-            <div class="resume-item">
-              <h4>Engineering Exchange Scholarship</h4>
-              <h5>2018 - 2019</h5>
-              <p><em>University of Maryland, USA</em></p>
-              <p> 1 year exchange scholarship at the University of Maryland, College Park campus. Continued my studies of my telecommunications engineering degree in the Electrical and Computer Engineering (ECE) path. Data Science specialization.</p>
-            </div>
-            <div class="resume-item">
-              <h4>Bachelor degree in Telecommunications Engineering</h4>
-              <h5>2016 - 2020</h5>
-              <p><em>Universidad Carlos III de Madrid</em></p>
-              <p><a href="https://www.uc3m.es/bachelor-degree/telecommunication" target="_blank" >Telecommunications Technologies Engineering degree</a>, taught completely on English. During my last year of college I focused on Deep Learning models, IoT and wrote my Bachelor Thesis Project on <a href="https://github.com/andresC98/One-Shot-DocClassifier" target="_blank" >Natural Language Processing</a>. </p>
+            <h3 class="card-title">GenAI & LLM Infrastructure</h3>
+            <p class="card-description">
+              Architecting scalable LLM inference and serving pipelines at Adyen. Implementing robust LLMOps, evaluation, and observability for enterprise Large Language Model applications.
+            </p>
+            <div class="card-tags">
+              <span class="card-tag">LLM Serving</span>
+              <span class="card-tag">LLMOps</span>
+              <span class="card-tag">Observability</span>
+              <span class="card-tag">Evaluation</span>
             </div>
           </div>
-          
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Senior Machine Learning Engineer</h4>
-              <h5>Feb'23 - Now</h5>
-              <p><em>CHEP, Madrid </em></p>
-              <ul>
-                <li>Leading the architecture design, development, and deployment of ML & AI models in Cloud and Microservices environments.</li>
-                <li>Deploying ML and Software pipelines following DevOps & MLOps best practices.</li>
-                <li>Tech stack: Python, AWS (ECS, ECR, Fargate, EFS, S3, Sagemaker, CloudWatch ...), Databricks, Docker, Git Pipelines, ...</li>
-                <li>Collaborating with international cross-functional teams to define tech. project requirements and deliver solutions.</li>
-                <li>Mentoring and guiding other engineers, providing technical leadership on MLOps, and fostering collaboration.</li>
-              </ul>
-              
+
+          <!-- Card 2 -->
+          <div class="glass-card">
+            <div class="card-icon">
+              <i class="bx bx-cloud"></i>
             </div>
-            <div class="resume-item">
-              <h4>Machine Learning Engineer</h4>
-              <h5>Dec'21 - Feb '23</h5>
-              <p><em>Sngular, Madrid </em></p>
-              <ul>
-                <li>Development of AI Engineering &amp; Data projects with a strong focus in Python and Cloud technologies.</li>
-                <li>Building MLOps infrastructure for Data Scientists' research tracking and monitoring, ML/DL models deployment in containerized environments.</li>
-                <li>Architecturing and Development of Computer Vision and Natural Language Processing projects.</li>
-                <li>Fast development of Proof of Concepts and Business Use Cases involving AI and Cognitive solutions.</li>
-              </ul>
+            <h3 class="card-title">Cloud & Platform Engineering</h3>
+            <p class="card-description">
+              Designing distributed Kubernetes cluster architectures, microservices infrastructure, and automated CI/CD pipelines across Google Cloud Platform (GCP), AWS, and Databricks.
+            </p>
+            <div class="card-tags">
+              <span class="card-tag">Kubernetes</span>
+              <span class="card-tag">GCP & AWS</span>
+              <span class="card-tag">Docker/Podman</span>
+              <span class="card-tag">Terraform</span>
             </div>
-            <div class="resume-item">
-              <h4>Cloud Microservices Developer</h4>
-              <h5>June'21 - Nov'21</h5>
-              <p><em>IBM, Madrid </em></p>
-              <ul>
-                <li>Consultant in IBM. Cloud Microservices Architect and Cloud Application Developer. Certified in Azure Data Platform (DP-900 Certification).</li>
-              </ul>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="glass-card">
+            <div class="card-icon">
+              <i class="bx bx-certification"></i>
             </div>
-            <div class="resume-item">
-              <h4>Data Scientist - AI Engineer</h4>
-              <h5>Sept'20 - June'21</h5>
-              <p><em>Universidad Carlos III, Evidence-Based Behavior (eB2), Madrid </em></p>
-              <ul>
-                <li>Research & Development Data Scientist</li>
-                <li>Developed advanced user patterns behavior ML & DL models for <a href="https://eb2.tech " target="_blank" > eb2.tech</a>, an AI Startup in the e-health industry.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>R&amp;D 5G Software Engineer Trainee</h4>
-              <h5>Jan'20 - Jul'20</h5>
-              <p><em>ERICSSON, Madrid </em></p>
-              <ul>
-                <li>Trainee in DevOps and Microservices technologies (Docker, Kubernetes) in a fast-paced Agile environment. </li>
-                <li>Also lead and developed a Natural Language Processing PoC.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Machine Learning Research Intern</h4>
-              <h5>Jun'19 - Oct'19</h5>
-              <p><em>IMDEA Networks, Madrid</em></p>
-              <ul>
-                <li>Research student in Machine Learning and Deep Learning, working in an international research team.</li>
-                <li>Performed R&D on hyperparameter search methods with multiobjective optimization. Neural Architectural Seach and Grammatical Evolution algorithms. Worked in Python using Keras, Tensorflow, Pandas, PonyGE2, SKlearn ... </li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Undergraduate Researcher Assistant</h4>
-              <h5>Nov'18 - Apr'19</h5>
-              <p><em>Dept. of Oceanic and Atmospheric Sciences, U. of Maryland, USA</em></p>
-              <ul>
-                <li>Student assistant in the research group SENSE</li>
-                <li>Data cleaning and analysis of meteorological sensor's outputs.</li>
-                <li>Teaching Python and data analysis libraries to other students in the group.</li>
-              </ul>
+            <h3 class="card-title">ML Engineering Leadership</h3>
+            <p class="card-description">
+              Google Cloud Certified Professional ML Engineer with proven experience transforming complex AI research prototypes into fully monitored, production-ready enterprise solutions.
+            </p>
+            <div class="card-tags">
+              <span class="card-tag">GCP Certified</span>
+              <span class="card-tag">PyTorch</span>
+              <span class="card-tag">MLflow</span>
+              <span class="card-tag">Telemetry</span>
             </div>
           </div>
         </div>
-
-          <div class="row">
-            <div class="col-lg-6" data-aos="fade-up">        
-            <h3 class="resume-title">Awards &amp; Honours</h3>
-            <div class="resume-item">
-              <h4>Nova Talent Top 3% in Engineering</h4>
-              <h5>2020-2021</h5>
-              <p><em>Nova Talent</em></p>
-            </div>
-            <div class="resume-item">
-              <h4>Finalist Atmira Stock Prediction Challenge</h4>
-              <h5>December 2020</h5>
-              <p><em>Cajamar University Hack Datathon</em></p>
-            </div>
-            <div class="resume-item">
-              <h4>Academic Excellence Scholarship</h4>
-              <h5>2019</h5>
-              <p><em>Comunidad de Madrid. UC3M</em></p>
-            </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up">  
-            <h3 class="resume-title">Awards &amp; Honours</h3>
-
-          <div class="resume-item">
-            <h4>1st Place BeDigital Challenge - Data &amp; Analytics </h4>
-            <h5>November 2019</h5>
-            <p><em>AIRBUS</em></p>
-          </div>
-          <div class="resume-item">
-            <h4>Engineering Academic Honors</h4>
-            <h5>2018</h5>
-            <p><em>University of Maryland</em></p>
-          </div>
-        </div>
-
-        </div>
-
       </div>
-    </section><!-- End Resume Section -->
-
-    <!-- ======= Services Section ======= -->
-    
-    <section id="Podcast" class="Podcast">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Podcast</h2>
-          <p> I am currently developing a Data Science Podcast in Spanish! 
-            My goal is to communicate machine learning concepts for a wide and non-technical audience, so that everyone can learn about this amazing world of Data Science.
-          My podcast is available in most of the platforms: <a href="https://open.spotify.com/show/5cpJ03oRVgD1LTs2SWEVKt?si=zHqoiYcKQYGI4-1lc1Fzhw" target="_blank" >Spotify</a>, <a href="https://podcasts.apple.com/es/podcast/ciencia-del-dato/id1541781917" target="_blank" >Apple Podcasts</a> and <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy80MTU0OWZlOC9wb2RjYXN0L3Jzcw==" target="_blank" >Google Podcasts</a>.</p>
-        </div>
-        <iframe src="https://open.spotify.com/embed-podcast/show/5cpJ03oRVgD1LTs2SWEVKt" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-  
-        <iframe src="https://embed.podcasts.apple.com/us/podcast/ciencia-del-dato/id1541781917?itsct=podcast_box&amp;itscg=30200&amp;theme=light" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: transparent; background-position: initial initial; background-repeat: initial initial;"></iframe>
-
-      </div>
-
     </section>
-    
-    <!-- End Services Section -->
-    
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
- 
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>You can reach me via my personal email as shown. If you wish to speak over phone, feel free to ask for it over mail first.</p>
+
+    <!-- ======= Homelab & Edge Hardware Section ======= -->
+    <section id="homelab" class="section">
+      <div class="main-container">
+        <div class="section-header">
+          <div class="section-subtitle">Hardware & Engineering Playground</div>
+          <h2 class="section-title">My Homelab Setup</h2>
         </div>
 
-        <div class="row" data-aos="fade-in">
+        <div class="glass-card">
+          <p class="card-description" style="font-size: 1.05rem; margin-bottom: 28px;">
+            Beyond enterprise cloud platforms, I run a hands-on homelab environment for local AI inference experiments, microservices hosting, microcontrollers, and 3D printing prototyping.
+          </p>
 
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="icofont-google-map"></i>
-                <h4>Area:</h4>
-                <p>Madrid, Atocha (28007)</p>
-              </div>
-
-              <div class="email">
-                <i class="icofont-envelope"></i>
-                <h4>Email:</h4>
-                <p>me@andrescarrillo.es</p>
-              </div>
-
-              <div class="phone">
-                <i class="icofont-phone"></i>
-                <h4>Call:</h4>
-                <p>Upon email request</p>
-              </div>
-
-              
+          <div class="homelab-grid">
+            <!-- Homelab Item 1 -->
+            <div class="homelab-item">
+              <h4><i class="bx bx-chip" style="color: var(--accent-cyan);"></i> Raspberry Pi 5</h4>
+              <p>Self-hosted network microservices, home automation, and lightweight edge server deployments.</p>
             </div>
 
-          </div>
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12151.82913626968!2d-3.688877190616451!3d40.40979706818602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42262787d4114f%3A0x1c0340f7338bd470!2s28014%20Madrid!5e0!3m2!1ses!2ses!4v1586266520892!5m2!1ses!2ses" frameborder="0" style="border:0; width: 80%; height: 300px;" allowfullscreen></iframe>
-         </div>
+            <!-- Homelab Item 2 -->
+            <div class="homelab-item">
+              <h4><i class="bx bx-desktop" style="color: var(--accent-purple);"></i> RTX 3060 Workstation</h4>
+              <p>Dedicated Windows 11 / Linux rig with NVIDIA RTX 3060 for local LLM inference, model fine-tuning, and CUDA experiments.</p>
+            </div>
 
+            <!-- Homelab Item 3 -->
+            <div class="homelab-item">
+              <h4><i class="bx bx-bolt-circle" style="color: #f59e0b;"></i> ESP32 & Arduino</h4>
+              <p>Embedded C/C++ development, custom IoT sensors, microcontrollers, and wireless communication protocols.</p>
+            </div>
+
+            <!-- Homelab Item 4 -->
+            <div class="homelab-item">
+              <h4><i class="bx bx-cube-alt" style="color: #ec4899;"></i> 3D Printing</h4>
+              <p>Rapid physical prototyping for custom hardware enclosures, sensor mounts, and mechanical parts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Featured Projects Section ======= -->
+    <section id="projects" class="section">
+      <div class="main-container">
+        <div class="section-header">
+          <div class="section-subtitle">Selected Work & Research</div>
+          <h2 class="section-title">Featured Repositories & Projects</h2>
         </div>
 
+        <div class="grid-2">
+          <!-- Project 1 -->
+          <div class="glass-card">
+            <div class="card-icon" style="color: var(--accent-purple); border-color: rgba(168, 85, 247, 0.3); background: rgba(168, 85, 247, 0.1);">
+              <i class="bx bx-git-repo-forked"></i>
+            </div>
+            <h3 class="card-title">Time-Series Forecasting using Transformers</h3>
+            <p class="card-description">
+              M.Sc. Thesis research benchmarking state-of-the-art Transformer architectures for multi-variate time-series predictions and temporal pattern extraction.
+            </p>
+            <div style="margin-top: auto;">
+              <a href="https://github.com/andresC98/TSF_Transformers_TFM" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="font-size: 0.85rem; padding: 6px 14px;">
+                <i class="bx bxl-github"></i> View Repository ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="glass-card">
+            <div class="card-icon" style="color: var(--accent-blue); border-color: rgba(99, 102, 241, 0.3); background: rgba(99, 102, 241, 0.1);">
+              <i class="bx bx-file"></i>
+            </div>
+            <h3 class="card-title">One-Shot Document Classifier</h3>
+            <p class="card-description">
+              B.Sc. Thesis project implementing Natural Language Processing pipelines to classify documents with extreme sample efficiency using one-shot learning strategies.
+            </p>
+            <div style="margin-top: auto;">
+              <a href="https://github.com/andresC98/One-Shot-DocClassifier" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="font-size: 0.85rem; padding: 6px 14px;">
+                <i class="bx bxl-github"></i> View Repository ↗
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 36px;">
+          <a href="https://github.com/andresC98" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+            <i class="bx bxl-github"></i> Explore All Projects on GitHub ↗
+          </a>
+        </div>
       </div>
-    </section><!-- End Contact Section -->
+    </section>
 
-  </main><!-- End #main -->
+    <!-- ======= Connect / Contact ======= -->
+    <section id="connect" class="section">
+      <div class="main-container">
+        <div class="connect-box">
+          <h3>Let's Connect</h3>
+          <p>
+            For my full professional career history, recommendations, and experience breakdown, check out my LinkedIn profile or reach out directly.
+          </p>
+          <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+            <a href="https://www.linkedin.com/in/andresc98/" target="_blank" rel="noopener noreferrer" class="btn-primary">
+              <i class="bx bxl-linkedin"></i> LinkedIn Profile ↗
+            </a>
+            <a href="mailto:me&#64;andrescarrillo.es" class="btn-secondary">
+              <i class="bx bx-envelope"></i> Email Me
+            </a>
+            <a href="https://github.com/andresC98" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+              <i class="bx bxl-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-
+  <footer class="footer">
+    <div class="main-container">
+      <p>© 2026 Andrés Carrillo López. Built with modern web standards & hosted on GitHub Pages.</p>
     </div>
-  </footer><!-- End  Footer -->
-
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-  <!--
-  <script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script> -->
+  </footer>
 
 </body>
 
